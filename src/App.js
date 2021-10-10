@@ -1,21 +1,22 @@
 
 import Alunos from './components/alunos/index'
 
+import UserProvider from './contexts/user';
 
 import './style.css'
 
 function App(){
   return (
 
-    <div>
-     <h1>Faculdade Gitcesumar</h1>
-     <hr/>
-    <Alunos/>
+    <UserProvider>
+      <div>
+        <h1>Faculdade Gitcesumar</h1>
+        <hr/>
 
+        <Alunos/>
+     </div>
 
- 
-    </div>
-
+    </UserProvider>
  
 
 

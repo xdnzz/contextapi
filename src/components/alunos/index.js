@@ -1,4 +1,5 @@
 import Nomes from '../nomes/index'
+import Teste from '../pastaTEste';
 
 
 function Alunos(){
@@ -7,6 +8,7 @@ function Alunos(){
             <h1>Componente Alunos</h1>
             
             <Nomes/>
+       
         </div>
     )
 }
